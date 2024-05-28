@@ -41,6 +41,8 @@ new_linked_list = LinkedList()
 
 new_linked_list.append(10)
 new_linked_list.append(20)
-new_linked_list.append(30)
 
+print(new_linked_list.head.value)
+print(new_linked_list.tail.value)
+print(new_linked_list.length)
 print(new_linked_list)
